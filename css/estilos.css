@@ -33,7 +33,7 @@ label {
     transition: text-shadow 0.3s ease-in-out, color 1.3s linear;
 }
 
-label:hover {
+label:hover, label:active {
     text-shadow: 0px 0px 5px cornsilk;
     color: darkblue;
 }
@@ -45,7 +45,7 @@ li {
     transition: background-color 1ms, width 1s, padding-left 2s;
 }
 
-li:hover {
+li:hover, li:active {
     background-color: antiquewhite;
     width: 12em;
     padding-left: 10px;
@@ -56,8 +56,6 @@ li:hover {
     display: block;
     padding-left: 0.7em;
 }
-
-.menu-navegacao a:hover {}
 
 .itens .sub-menu {
     overflow: hidden;
