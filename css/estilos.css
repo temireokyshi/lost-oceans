@@ -13,7 +13,7 @@ nav.menu-navegacao {
 div.itens {
     padding-bottom: 1em;
     padding-top: 1em;
-    background-color: rgb(241, 193, 150);
+    background-color: rgb(200, 150, 140);
     border-bottom-right-radius: 1.5em;
     border-top-right-radius: 1.5em;
 }
@@ -47,7 +47,7 @@ li {
 }
 
 li:hover, li:active {
-    background-color: antiquewhite;
+    background-color: rgba(202, 172, 131, 0.685);
     width: 12em;
     padding-left: 0.7em;
 }
