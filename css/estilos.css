@@ -1,1 +1,70 @@
-/*Area de Estilos*/
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav.menu-navegacao {
+    width: 20em;
+}
+
+div.itens {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    background-color: rgb(241, 193, 150);
+    border-bottom-right-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+
+input {
+    display: none;
+}
+
+label {
+    color: cornsilk;
+    cursor: pointer;
+    display: block;
+    font-size: 2em;
+    padding-left: 0.3em;
+    text-shadow: 0px 0px 5px darkblue;
+    width: 8em;
+    transition: text-shadow 0.3s ease-in-out, color 1.3s linear;
+}
+
+label:hover {
+    text-shadow: 0px 0px 5px cornsilk;
+    color: darkblue;
+}
+
+li {
+    font-size: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    transition: background-color 1ms, width 1s, padding-left 2s;
+}
+
+li:hover {
+    background-color: antiquewhite;
+    width: 12em;
+    padding-left: 10px;
+}
+
+.menu-navegacao a {
+    background-color: rgba(0, 0, 0, 0);
+    display: block;
+    padding-left: 0.7em;
+}
+
+.menu-navegacao a:hover {}
+
+.itens .sub-menu {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 1s linear;
+}
+
+.itens input:checked~.sub-menu {
+    max-height: 22.74632em;
+}
