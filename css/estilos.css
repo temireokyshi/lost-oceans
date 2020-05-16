@@ -30,6 +30,7 @@ label {
     padding-left: 0.3em;
     text-shadow: 0px 0px 5px darkblue;
     width: 8em;
+    margin: 0.2em;
     transition: text-shadow 0.3s ease-in-out, color 1.3s linear;
 }
 
@@ -48,13 +49,20 @@ li {
 li:hover, li:active {
     background-color: antiquewhite;
     width: 12em;
-    padding-left: 10px;
+    padding-left: 0.7em;
 }
 
 .menu-navegacao a {
-    background-color: rgba(0, 0, 0, 0);
+    color: rgb(112, 112, 112);
+    text-shadow: 0px 0px 5px rgb(99, 212, 214);
     display: block;
     padding-left: 0.7em;
+    transition: text-shadow 0.3s ease-in-out, color 1.3s linear;
+}
+
+.menu-navegacao a:hover {
+    color: rgb(114, 169, 170);
+    text-shadow: 0px 0px 5pxrgb(112, 112, 112);
 }
 
 .itens .sub-menu {
