@@ -10,15 +10,16 @@
 
 <body>
     <header>
+        <!--Início da nav-->
         <nav class="menu-navegacao">
-            <ol class="itens">
-                <li><a href="#">
-                        <input type="checkbox" id="check-sistema">
-                        <label for="check-sistema">
-                            O Sistema
-                        </label>
-                    </a>
-                    <ul class="sub-menu">
+            <div class="itens">
+                <!--SISTEMA-->
+                <div class="sistema">
+                    <input type="checkbox" id="check-sistema">
+                    <label for="check-sistema">
+                        O Sistema
+                    </label>
+                    <ul class="sub-menu" id="menu-sistema">
                         <li><a href="#">Sobrevivendo</a></li>
                         <li><a href="#">Pontos de Ordem e Caos</a></li>
                         <li><a href="#">Atributos</a></li>
@@ -33,15 +34,14 @@
                         <li><a href="#">Criaturas</a></li>
                         <li><a href="#">Divindades</a></li>
                     </ul>
-                    </a>
-                </li>
-                <li> <a href="#">
-                        <input type="checkbox" id="check-historia">
-                        <label for="check-historia">
-                            História
-                        </label>
-                    </a>
-                    <ul class="sub-menu">
+                </div>
+                <!--HISTÓRIA-->
+                <div class="historia">
+                    <input type="checkbox" id="check-historia">
+                    <label for="check-historia">
+                        História
+                    </label>
+                    <ul class="sub-menu" id="menu-historia">
                         <li><a href="#">Prólogo</a></li>
                         <li><a href="#">A Armada de Sul'haf</a></li>
                         <li><a href="#">A Transição</a></li>
@@ -53,14 +53,14 @@
                         <li><a href="#">Os Psciônicos</a></li>
                         <li><a href="#">O Foço</a></li>
                     </ul>
-                </li>
-                <li><a href="#">
-                        <input type="checkbox" id="check-personagens">
-                        <label for="check-personagens">
-                            Personagens
-                        </label>
-                    </a>
-                    <ul class="sub-menu">
+                </div>
+                <!--PERSONAGENS-->
+                <div class="personagem">
+                    <input type="checkbox" id="check-personagem">
+                    <label for="check-personagem">
+                        Personagens
+                    </label>
+                    <ul class="sub-menu" id="menu-personagem">
                         <li><a href="#">Raneyon</a></li>
                         <li><a href="#">Arani</a></li>
                         <li><a href="#">Keane</a></li>
@@ -68,26 +68,26 @@
                         <li><a href="#">Behul</a></li>
                     </ul>
                     </ul>
-                </li>
-                <li><a href="#">
-                        <input type="checkbox" id="check-mapas">
-                        <label for="check-mapas">
-                            Mapas
-                        </label>
-                    </a>
-                    <ul class="sub-menu">
+                </div>
+                <!--MAPAS-->
+                <div class="mapa">
+                    <input type="checkbox" id="check-mapa">
+                    <label for="check-mapa">
+                        Mapas
+                    </label>
+                    <ul class="sub-menu" id="menu-mapa">
                         <li><a href="#">Mansa-ras</a></li>
                         <li><a href="#">Nex-Lapur</a></li>
                         <li><a href="#">Fordrazel</a></li>
                         <li><a href="#">L'Rose</a></li>
-                        <li><a href="#">Rakil-ra</a></li>
-                        <li class="none">&nbsp;</li>
+                        <li class="last-item"><a href="#">Rakil-ra</a></li>
                     </ul>
-                </li>
-            </ol>
+                </div>
+                <!--Fim da nav-->
+            </div>
         </nav>
     </header>
-    <script src="js/scripts.js"></script>
+    
 </body>
 
 </html>
